@@ -47,4 +47,7 @@ class Employee {
         return id;
     }
 
+    public int getId(){
+        return id;
+    }
 }
