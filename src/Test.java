@@ -5,7 +5,7 @@ public class Test {
 
         staff[0] = new Employee("Jack", 2000, 2019, 10, 24);
         staff[1] = new Employee("Alex", 3000, 2012, 10, 3);
-        staff[2] = new Employee("James", 1000, 2013, 12, 14);
+        staff[2] = new Employee("Alex", 1000, 2013, 12, 14);
 
         for(Employee e : staff){
             e.raiseSalary(15);
@@ -14,5 +14,7 @@ public class Test {
         for(Employee e : staff){
             System.out.println("Name" + e.getName() + ", salary: " + e.getSalary());
         }
+
+        System.out.println("Same names?: " + staff[1].checkIfSame(staff[2]));
     }
 }
