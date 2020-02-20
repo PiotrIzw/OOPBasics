@@ -12,7 +12,7 @@ public class Test {
         }
 
         for(Employee e : staff){
-            System.out.println("Name" + e.getName() + ", salary: " + e.getSalary());
+            System.out.println("Name: " + e.getName() + ", salary: " + e.getSalary() + ", id: " + e.getId());
         }
 
         System.out.println("Same names?: " + staff[1].checkIfSame(staff[2]));
