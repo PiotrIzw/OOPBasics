@@ -1,6 +1,7 @@
+
 import java.time.LocalDate;
 
-public class Employee {
+class Employee {
 
     private String name;
     private double salary;
@@ -21,12 +22,16 @@ public class Employee {
     }
 
     public LocalDate getHireDay(){
-        return hireDay;
+        return hireDay.;
     }
 
     public void raiseSalary(double percent){
         double moneyToAdd = salary * (percent/100);
         salary += moneyToAdd;
+    }
+
+    public boolean checkIfSame(Employee e){
+        return (this.name).equals(e.name);
     }
 
 }
