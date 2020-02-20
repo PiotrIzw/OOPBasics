@@ -22,7 +22,7 @@ class Employee {
     }
 
     public LocalDate getHireDay(){
-        return hireDay.;
+        return hireDay;
     }
 
     public void raiseSalary(double percent){
